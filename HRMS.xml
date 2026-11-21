@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Application authoritative="true" connector="sailpoint.connector.DelimitedFileConnector" created="1780543059010" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" id="c0a801079e871901819e90a2f4420687" modified="1781325988434" name="HRMS System" profileClass="" type="DelimitedFile">
+  <Attributes>
+    <Map>
+      <entry key="PassphraseForPrivateKey"/>
+      <entry key="PrivateKeyFilePath"/>
+      <entry key="acctAggregationEnd">
+        <value>
+          <Date>1780940135738</Date>
+        </value>
+      </entry>
+      <entry key="acctAggregationStart">
+        <value>
+          <Date>1780940134610</Date>
+        </value>
+      </entry>
+      <entry key="afterProvisioningRule"/>
+      <entry key="beforeProvisioningRule"/>
+      <entry key="compositeDefinition"/>
+      <entry key="delimiter" value=","/>
+      <entry key="file" value="C:\Sailpoint_workspace\AuthEmployees.csv"/>
+      <entry key="filetransport" value="local"/>
+      <entry key="filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="ftpsAuthMethod" value="password"/>
+      <entry key="ftpsClientCertificateFilePath"/>
+      <entry key="ftpsClientCertificatePassphrase"/>
+      <entry key="group.filetransport" value="local"/>
+      <entry key="group.filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="group.partitionMode" value="auto"/>
+      <entry key="hasHeader">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="isCaseInsensitiveMerge">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="isSortedByIndexColumn">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="mergeRows">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
+      <entry key="nativeChangeDetectionAttributes"/>
+      <entry key="nativeChangeDetectionEnabled">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionOperations"/>
+      <entry key="parseType" value="delimited"/>
+      <entry key="partitionMode" value="auto"/>
+      <entry key="port"/>
+      <entry key="sftpAuthMethod" value="password"/>
+      <entry key="stopIfLineHasWrongColumnLength">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="HRMS System for new Emp"/>
+          </Map>
+        </value>
+      </entry>
+      <entry key="templateApplication" value="DelimitedFile Template"/>
+    </Map>
+  </Attributes>
+  <CreationRule>
+    <Reference class="sailpoint.object.Rule" id="c0a801079ea5139e819ea84923f40091" name="password  creation rule for all the identities"/>
+  </CreationRule>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="c0a801079e871492819e87d537120001" name="AttributeSyncWorkGroup"/>
+  </Owner>
+  <Schemas>
+    <Schema created="1780543059013" displayAttribute="" id="c0a801079e871901819e90a2f4450689" identityAttribute="fullName" instanceAttribute="" modified="1780939837577" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
+      <AttributeDefinition name="employeeId" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="firstName" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="lastName" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="managerId" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="fullName" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="email" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="department" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="region" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="location" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="inactiveIdentity" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="jobtitle" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+      <AttributeDefinition name="costcenter" type="string">
+        <Description></Description>
+      </AttributeDefinition>
+    </Schema>
+  </Schemas>
+  <ApplicationScorecard created="1780543059010" id="c0a801079e871901819e90a2f4420688" modified="1780939837576"/>
+</Application>
