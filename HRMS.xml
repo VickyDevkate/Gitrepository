@@ -70,7 +70,7 @@
       <entry key="sftpAuthMethod" value="password"/>
       <entry key="stopIfLineHasWrongColumnLength">
         <value>
-          <Boolean></Boolean>
+          <Boolean>xyz</Boolean>
         </value>
       </entry>
       <entry key="sysDescriptions">
